@@ -45,6 +45,7 @@ public class DobbeltLenketListe<T> implements Liste<T> {
 
     public DobbeltLenketListe(T[] a) {
         this();
+        //addded graddle in terminal
         Objects.requireNonNull(a,"Ikke tillatt med null verdier");
 
         int i = 0;//prøver å finne første a som ikke er null;
